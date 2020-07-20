@@ -7,3 +7,8 @@ How to install python: below are the ways to install python.
   b.Go to https://www.python.org/downloads/ and install it
 
 2. What are code environments and types?
+Ans: A code environment is an independent collection of its own set of packages and codes which is used to create, compile and run the code.
+There are 3 types of code environments
+a. Text Editors
+b. Full IDEs
+c. Notebook Environment.
