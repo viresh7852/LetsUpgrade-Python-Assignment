@@ -2,5 +2,8 @@
 Ans: Python is a high level programming language which is used to developing desktop GUI applications, websites and web applications.
 It is invented by Guido van Rossum in 1991 however google had started community support and made it famous in 2006.
 
+How to install python: below are the ways to install python.
+  a.Go to https://www.anaconda.com/products/individual and install.
+  b.Go to https://www.python.org/downloads/ and install it
 
 2. What are code environments and types?
