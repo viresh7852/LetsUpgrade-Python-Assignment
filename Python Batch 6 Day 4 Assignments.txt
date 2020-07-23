@@ -1,0 +1,71 @@
+#Question 1
+# find all occurrences of substring in the given string
+
+str1 = "what we think we became; we are python programmer"
+sub_strng =  "we"
+
+print ("initial_strings : ", str1, "\nsubstring : ", sub_strng) 
+
+res = [] 
+flag = 0
+k = 0
+
+for i in range(0, len(str1)): 
+	k = i 
+	flag = 0
+	for j in range(0, len(sub_strng)): 
+		if str1[k] != sub_strng[j]: 
+			flag = 1
+		if flag: 
+			break
+		k = k + 1
+	if flag == 0: 
+		res.append(i) 
+
+print ("resultant positions", str(res)) 
+
+
+
+#Question 2 
+#explain islower() isupper() with different examples
+
+#islower(): It checks the weather the characters in string are in lowercase 
+#examples of islower()
+
+>>> str="viresh"
+>>> str.islower()
+True
+>>> str='viresh111'
+>>> str.islower()
+True
+>>> str="viresh111"
+>>> str.islower()
+True
+>>> str="Viresh"
+>>> str.islower()
+False
+>>> str="vIRESH"
+>>> str.islower()
+False
+>>> str='123'
+>>> str.islower()
+False
+>>>
+
+
+#isupper(): It checks the weather the characters in string are in uppercase 
+#expamples of isupper()
+
+>>> str="VIRESH"
+>>> str.isupper()
+True
+>>> str="Viresh"
+>>> str.isupper()
+False
+>>> str="viRESH"
+>>> str.isupper()
+False
+>>> str="VIRESH123"
+>>> str.isupper()
+True
+>>>
